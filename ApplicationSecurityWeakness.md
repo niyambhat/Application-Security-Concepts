@@ -2,6 +2,28 @@
 
 ## Web Application Security Weaknesses
 
+### Data Handling 
+#### Injection flaws
+- Code Injection 
+- HTTP Injection 
+- LDAP Injection 
+- NoSQL Injection 
+- OS Command Injection 
+- Path Traversal
+  Attackers try to access the files in the system by using the url path such as /.../wp-admin/photos/.....  Or by manipulating this url such as  /.../wp-admin/documents/.....
+  To prevent this developrs must test the vunerabiloty and mitigate it.
+- Local File Inclusion 
+- Remote File Inclusion 
+- SQL injection 
+- XML Injection 
+- XPath Injection 
+- XQuery Injection 
+- Email Injection 
+- Deserialization of Untrusted Data 
+- Log Forging 
+- Resource Injection 
+- CSS Injection 
+
 ### Authentication and Access Control
 
 #### Access Control
@@ -20,3 +42,16 @@ Effective logging and monitoring are essential components of access control. Ins
 
 
 
+### Security Misconfiguration 
+#### Information Exposure
+- using default account name and passwords
+- debugging information was left enabled
+
+#### Click Jacking
+- luring a user to click to a vunerable are
+  Ro resolve this developers should use content security policy headers
+
+#### Disabled Security Features
+- luring a user to click to a vunerable are
+  Ro resolve this developers should use content security policy headers
+- 
